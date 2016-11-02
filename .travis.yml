@@ -1,0 +1,10 @@
+language: objective-c
+osx_image: xcode8
+env:
+  matrix:
+    - DESTINATION="platform=iOS Simulator,OS=10.0,name=iPad Pro (12.9 inch)"
+
+script: xcodebuild test -project OSC.xcodeproj -scheme OSC -destination "${DESTINATION}" TOOLCHAINS=swift
+
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
