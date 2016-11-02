@@ -359,22 +359,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C3C5B66A030B2FB5E4AE1A84 /* OSC.h in Headers */,
-				07042AA51DC973E200034195 /* NSNumber+F53OSCNumber.h in Headers */,
 				07042AB11DC974A900034195 /* F53OSC.h in Headers */,
 				07042A7B1DC973E200034195 /* F53OSCMessage.h in Headers */,
 				07042A871DC973E200034195 /* F53OSCProtocols.h in Headers */,
-				07042A9D1DC973E200034195 /* NSData+F53OSCBlob.h in Headers */,
-				07042AA11DC973E200034195 /* NSDate+F53OSCTimeTag.h in Headers */,
 				07042A991DC973E200034195 /* GCDAsyncUdpSocket.h in Headers */,
 				07042A911DC973E200034195 /* F53OSCTimeTag.h in Headers */,
 				07042A711DC973E200034195 /* F53OSCBundle.h in Headers */,
 				07042A7F1DC973E200034195 /* F53OSCPacket.h in Headers */,
 				07042A831DC973E200034195 /* F53OSCParser.h in Headers */,
-				07042A951DC973E200034195 /* GCDAsyncSocket.h in Headers */,
 				07042A891DC973E200034195 /* F53OSCServer.h in Headers */,
-				07042A791DC973E200034195 /* F53OSCFoundationAdditions.h in Headers */,
 				07042A751DC973E200034195 /* F53OSCClient.h in Headers */,
 				07042A8D1DC973E200034195 /* F53OSCSocket.h in Headers */,
+				07042AA51DC973E200034195 /* NSNumber+F53OSCNumber.h in Headers */,
+				07042A9D1DC973E200034195 /* NSData+F53OSCBlob.h in Headers */,
+				07042AA11DC973E200034195 /* NSDate+F53OSCTimeTag.h in Headers */,
+				07042A951DC973E200034195 /* GCDAsyncSocket.h in Headers */,
+				07042A791DC973E200034195 /* F53OSCFoundationAdditions.h in Headers */,
 				07042AA91DC973E200034195 /* NSString+F53OSCString.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
