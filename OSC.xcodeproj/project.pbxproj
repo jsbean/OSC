@@ -71,8 +71,10 @@
 		07042AAF1DC9746A00034195 /* OSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07042AAD1DC9746A00034195 /* OSC.swift */; };
 		07042AB01DC974A900034195 /* F53OSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07042A4F1DC973E200034195 /* F53OSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		07042AB11DC974A900034195 /* F53OSC.h in Headers */ = {isa = PBXBuildFile; fileRef = 07042A4F1DC973E200034195 /* F53OSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07042AB31DC9751C00034195 /* OSCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07042AB21DC9751C00034195 /* OSCTests.swift */; };
-		07042AB41DC9751C00034195 /* OSCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07042AB21DC9751C00034195 /* OSCTests.swift */; };
+		07042AB31DC9751C00034195 /* OSCAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07042AB21DC9751C00034195 /* OSCAPITests.swift */; };
+		07042AB41DC9751C00034195 /* OSCAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07042AB21DC9751C00034195 /* OSCAPITests.swift */; };
+		07875DBB1DDE1907000E4759 /* MessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07875DBA1DDE1907000E4759 /* MessageTests.swift */; };
+		07875DBC1DDE1907000E4759 /* MessageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07875DBA1DDE1907000E4759 /* MessageTests.swift */; };
 		1DA6207C9406D349C5218CC1 /* OSC.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0C6C38A29BD78122012919 /* OSC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4068DB80D6B8D336F4B0796E /* OSC.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = B1905FE673300200CD42B226 /* OSC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5C13623AC0C1F4026CABBC1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC17F2475F519D89E6C04CBB /* Cocoa.framework */; };
@@ -157,7 +159,8 @@
 		07042A6C1DC973E200034195 /* NSString+F53OSCString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+F53OSCString.h"; path = "OSC/F53OSC/NSString+F53OSCString.h"; sourceTree = "<group>"; };
 		07042A6D1DC973E200034195 /* NSString+F53OSCString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+F53OSCString.m"; path = "OSC/F53OSC/NSString+F53OSCString.m"; sourceTree = "<group>"; };
 		07042AAD1DC9746A00034195 /* OSC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSC.swift; path = OSC/OSC.swift; sourceTree = "<group>"; };
-		07042AB21DC9751C00034195 /* OSCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSCTests.swift; path = OSCTests/OSCTests.swift; sourceTree = "<group>"; };
+		07042AB21DC9751C00034195 /* OSCAPITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OSCAPITests.swift; path = OSCTests/OSCAPITests.swift; sourceTree = "<group>"; };
+		07875DBA1DDE1907000E4759 /* MessageTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageTests.swift; path = OSC/MessageTests.swift; sourceTree = "<group>"; };
 		0E771D91E110492638770F68 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = OSC/Info.plist; sourceTree = "<group>"; };
 		143B532D8CE7688916CAD269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = OSCTests/Info.plist; sourceTree = "<group>"; };
 		23DD83BBF00C6EF4891EDA1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -304,7 +307,8 @@
 			isa = PBXGroup;
 			children = (
 				B4050A399A0DCCA7FE5DAB4C /* Supporting Files */,
-				07042AB21DC9751C00034195 /* OSCTests.swift */,
+				07042AB21DC9751C00034195 /* OSCAPITests.swift */,
+				07875DBA1DDE1907000E4759 /* MessageTests.swift */,
 			);
 			name = OSCTests;
 			sourceTree = "<group>";
@@ -500,7 +504,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07042AB41DC9751C00034195 /* OSCTests.swift in Sources */,
+				07042AB41DC9751C00034195 /* OSCAPITests.swift in Sources */,
+				07875DBC1DDE1907000E4759 /* MessageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -552,7 +557,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07042AB31DC9751C00034195 /* OSCTests.swift in Sources */,
+				07042AB31DC9751C00034195 /* OSCAPITests.swift in Sources */,
+				07875DBB1DDE1907000E4759 /* MessageTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
