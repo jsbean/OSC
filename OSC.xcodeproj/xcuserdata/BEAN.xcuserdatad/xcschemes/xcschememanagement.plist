@@ -4,22 +4,22 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>OSC iOS Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
+		<key>OSC macOS Tests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+		</dict>
 		<key>OSC.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
 		</dict>
 		<key>OSCMac.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
-		<key>OSCMacTests.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<true/>
-		</dict>
-		<key>OSCTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<true/>
